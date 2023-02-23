@@ -26,7 +26,7 @@ PIN10 > BLK
 If you connect Seeed XIAO, the pinout is D10 > MOSI, D9> MISO, D8>SCK. This display does not have an CS line.
 The DC and RST pins, could be any free pin (in my case, D4 and D5). 
 
-´´´ py 
+´´´
 import board
 import busio
 import gifio
